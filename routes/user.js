@@ -29,7 +29,7 @@ router.get('/', function(req, res, next) {
       image :"https://helios-i.mashable.com/imagery/reviews/01MsKXhnucbieHlbObEgLpy/hero-image.fill.size_1200x1200.v1629522312.jpg"
     }
   ]
-  res.render('index', {products});
+  res.render('index', {products,admin:false});
 });
 
 module.exports = router;
